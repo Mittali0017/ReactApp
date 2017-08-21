@@ -389,6 +389,7 @@ export default class Menu extends Component {
         return (
             <div className='menu' >
                 {popups}
+                
             </div>
         );
     }

@@ -136,8 +136,9 @@ export default class DropdownMenu extends Component {
             ])),
             // render the child passed from the outside, or a default button
             children = this.props.children || (
-                <button ref='button' className={className}>
+                <button ref='button' className={className} >
                     {this.props.buttonText}
+
                 </button>
             ), self = this;
 
@@ -181,8 +182,10 @@ export default class DropdownMenu extends Component {
 
         return (
             <div className={buttonClassName} >
-                {this.renderButton()}
+                {this.renderButton() }
                 {menu}
+
+                 
             </div>
         );
     }

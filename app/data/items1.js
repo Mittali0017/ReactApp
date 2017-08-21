@@ -1,6 +1,7 @@
 export const items1 = [{
     type: 'label',
-    title: 'Home'
+    title: 'Home',
+    image:'../images/home.png'
 }, '-', {
     title: 'Dropdown',
     items: [{
@@ -47,9 +48,37 @@ export const items1 = [{
     callback(e) {
         console.log('*** Report 3 clicked', e);
     }
-}, {
+},{
     title: 'Image'
-}, '-', {
+}, {
+    title: 'All Examples'
+},
+{
+    title: 'Column1'
+},
+{
+    title: 'Column2',
+    items: [{
+        title: 'Report 1',
+        callback(e) {
+            console.log('*** Failure clicked', e);
+        }
+    }, '-', {
+        title: 'Report 2',
+        callback(e) {
+            console.log('Report 2 clicked' + e);
+        }
+    }, '-', {
+        title: 'Report 3'
+    }],
+    callback(e) {
+        console.log('*** Report 3 clicked', e);
+    }
+},
+{
+    title: 'Column3'
+},
+ '-', {
     type: 'link',
     title: 'Contact',
     url: 'https://google.com',

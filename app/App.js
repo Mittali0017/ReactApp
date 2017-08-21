@@ -2,8 +2,8 @@ import _ from 'lodash';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import AppMenuItems from './data/AppMenuItems.js';
-import BottomToolbar from './components/BottomToolbar.js';
-import Circle from './components/Circle.js';
+/*import BottomToolbar from './components/BottomToolbar.js';
+import Circle from './components/Circle.js';*/
 import {CIRCLE_ID_PREFIX} from './components/Circle.js';
 import CircleMenuItems from './data/CircleMenuItems.js';
 import CircleOps from './util/CircleOps.js';
